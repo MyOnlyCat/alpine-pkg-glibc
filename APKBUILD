@@ -1,7 +1,7 @@
 # Maintainer: Sasha Gerrand <alpine-pkgs@sgerrand.com>
 
 pkgname="glibc"
-pkgver="2.34-0"
+pkgver="2.34"
 _pkgrel="0"
 pkgrel="0"
 pkgdesc="GNU C Library compatibility layer"
@@ -9,8 +9,6 @@ arch="aarch64"
 url="https://github.com/sgerrand/alpine-pkg-glibc"
 license="LGPL"
 # change url
-# https://github.com/MyOnlyCat/docker-glibc-builder/releases/download/2.34-0/glibc-bin-2.34-aarch64.tar.gz
-# https://github.com/MyOnlyCat/docker-glibc-builder/releases/download/2.34-0/glibc-bin-2.34-0-aarch64.tar.gz
 source="https://github.com/MyOnlyCat/docker-glibc-builder/releases/download/$pkgver-$_pkgrel/glibc-bin-$pkgver-$_pkgrel-aarch64.tar.gz
 nsswitch.conf
 ld.so.conf"
